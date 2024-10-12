@@ -1,17 +1,17 @@
 import { useEffect, useState } from "react"
 import Navbar from "../navbar"
 // import './cssPages/home.css'
-import LinearAlgebraCalculus from "../../public/pdf/question-banks/R23/1-1-semester/R23-Linear Algebra & Calculus-p.pdf"
-import Chemistry from "../../public/pdf/question-banks/R23/1-1-semester/R23-Chemistryp.pdf"
-import EngineeringPhysics from "../../public/pdf/question-banks/R23/1-1-semester/R23-Engineering Physicsp.pdf"
-import CommunicativeEnglish from "../../public/pdf/question-banks/R23/1-1-semester/R23-Communicative English-p.pdf"
-import BasicElectricalElectronicsEngineering from "../../public/pdf/question-banks/R23/1-1-semester/R23-BEEE-p.pdf"
-import BasicCivilMechanicalEngineering from"../../public/pdf/question-banks/R23/1-1-semester/R23- BCME-p.pdf"
-import EngineeringGraphics from "../../public/pdf/question-banks/R23/1-1-semester/R23-Engineering Graphics-p.pdf"
-import IntroductiontoProgramming from"../../public/pdf/question-banks/R23/1-1-semester/R23-INTRODUCTION TO PROGRAMMING-p.pdf"
-import DifferentialEquationsVectorCalculus from "../../public/pdf/question-banks/R23/1-2-semester/R23-DE&VC.pdf"
-import DataStructures from"../../public/pdf/question-banks/R23/1-2-semester/R23-Data Structure.pdf"
-import NetworkAnalysis from "../../public/pdf/question-banks/R23/1-2-semester/R23-Network Analysis.pdf"
+import LinearAlgebraCalculus from "../../public/pdf/question-banks/1-1-semester/R23-Linear Algebra & Calculus-p.pdf"
+import Chemistry from "../../public/pdf/question-banks/1-1-semester/R23-Chemistryp.pdf"
+import EngineeringPhysics from "../../public/pdf/question-banks/1-1-semester/R23-Engineering Physicsp.pdf"
+import CommunicativeEnglish from "../../public/pdf/question-banks/1-1-semester/R23-Communicative English-p.pdf"
+import BasicElectricalElectronicsEngineering from "../../public/pdf/question-banks/1-1-semester/R23-BEEE-p.pdf"
+import BasicCivilMechanicalEngineering from"../../public/pdf/question-banks/1-1-semester/R23- BCME-p.pdf"
+import EngineeringGraphics from "../../public/pdf/question-banks/1-1-semester/R23-Engineering Graphics-p.pdf"
+import IntroductiontoProgramming from"../../public/pdf/question-banks/1-1-semester/R23-INTRODUCTION TO PROGRAMMING-p.pdf"
+import DifferentialEquationsVectorCalculus from "../../public/pdf/question-banks/1-2-semester/R23-DE&VC.pdf"
+import DataStructures from"../../public/pdf/question-banks/1-2-semester/R23-Data Structure.pdf"
+import NetworkAnalysis from "../../public/pdf/question-banks/1-2-semester/R23-Network Analysis.pdf"
 
 
 
