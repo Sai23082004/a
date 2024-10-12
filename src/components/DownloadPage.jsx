@@ -50,7 +50,7 @@ const DownloadPage = () => {
             </div>
             {/* PREVIOUS YEAR QUESTION PAPERS  */}
             <div className="my-5">
-                <h1 className="text-center fw-bold" >QUESTION BANKS FOR B.TECH STUDENTS</h1>
+                <h1 className="text-center fw-bold" >QUESTION BANKS FOR B.TECH STUDENTS </h1>
 
                 {
                     semisters.map((value, i) => {
