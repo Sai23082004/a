@@ -2,20 +2,43 @@ import { useEffect, useState } from "react"
 import Navbar from "../navbar"
 // import IYEARISEMESTERQUESTIONPAPERS from "../../public/pdf/1-1 R23 (1).pdf"
 // import './cssPages/home.css'
-const semisterPaperDownloadsPdfs = [[["IYEARISEMESTERQUESTIONPAPERS"], ["I YEAR II SEM REGULAR ALL BRANCH QUESTION PAPERS"]], [[]], [[]]]
+import LinearAlgebraCalculus from "../../public/pdf/question-banks/R23/1-1-semester/R23-Linear Algebra & Calculus-p.pdf"
+import Chemistry from "../../public/pdf/question-banks/R23/1-1-semester/R23-Chemistryp.pdf"
+import EngineeringPhysics from "../../public/pdf/question-banks/R23/1-1-semester/R23-Engineering Physicsp.pdf"
+import CommunicativeEnglish from "../../public/pdf/question-banks/R23/1-1-semester/R23-Communicative English-p.pdf"
+import BasicElectricalElectronicsEngineering from "../../public/pdf/question-banks/R23/1-1-semester/R23-BEEE-p.pdf"
+import BasicCivilMechanicalEngineering from"../../public/pdf/question-banks/R23/1-1-semester/R23- BCME-p.pdf"
+import EngineeringGraphics from "../../public/pdf/question-banks/R23/1-1-semester/R23-Engineering Graphics-p.pdf"
+import IntroductiontoProgramming from"../../public/pdf/question-banks/R23/1-1-semester/R23-INTRODUCTION TO PROGRAMMING-p.pdf"
+import DifferentialEquationsVectorCalculus from "../../public/pdf/question-banks/R23/1-2-semester/R23-DE&VC.pdf"
+import DataStructures from"../../public/pdf/question-banks/R23/1-2-semester/R23-Data Structure.pdf"
+import NetworkAnalysis from "../../public/pdf/question-banks/R23/1-2-semester/R23-Network Analysis.pdf"
+
+
+
+const semisterPaperDownloadsPdfs = [
+    [[LinearAlgebraCalculus,Chemistry,EngineeringPhysics,CommunicativeEnglish,BasicElectricalElectronicsEngineering,BasicCivilMechanicalEngineering,EngineeringGraphics,IntroductiontoProgramming], [DataStructures,DifferentialEquationsVectorCalculus,NetworkAnalysis,Chemistry,EngineeringPhysics,CommunicativeEnglish,BasicElectricalElectronicsEngineering,BasicCivilMechanicalEngineering,EngineeringGraphics,IntroductiontoProgramming]],
+    [[]],
+    [[]]
+]
 
 const DownloadPage = () => {
-    const semisters = ["PREVIOUS YEAR QUESTION PAPERS - Regulation : R23", "Previous Year Question Papers - Regulation : R20", "PREVIOUS YEAR QUESTION PAPERS - Regulation : R23"]
+    const semisters = [
+        "Under Graduate(B.Tech) Question Bank:(AUTONOMOUS) R23 Regulations"
+    
+    ]
     const semisterPaper = [
-        ["I B.TECH I SEMESTER (R23) SUPPLEMENTARY EXAMS JULY/AUGUST-2024", "I B.TECH II SEMESTER (R23) REGULAR EXAMS JULY-2024"],
-        ["I M.TECH I SEMESTER (R20) SUPPLEMENTARY EXAMINATIONS AUGUST 2024"],
-        ["I M.TECH I SEMESTER (R20) SUPPLEMENTARY EXAMINATIONS AUGUST 2024", "I M.TECH I SEMESTER (R20) SUPPLEMENTARY EXAMINATIONS AUGUST 2024", "I M.TECH I SEMESTER (R20) SUPPLEMENTARY EXAMINATIONS AUGUST 2024"]
+        ["I Year - B.Tech I Semester", "I Year - B.Tech II Semester"],
+        // ["I M.TECH I SEMESTER (R20) SUPPLEMENTARY EXAMINATIONS AUGUST 2024"],
+        // ["I M.TECH I SEMESTER (R20) SUPPLEMENTARY EXAMINATIONS AUGUST 2024", "I M.TECH I SEMESTER (R20) SUPPLEMENTARY EXAMINATIONS AUGUST 2024", "I M.TECH I SEMESTER (R20) SUPPLEMENTARY EXAMINATIONS AUGUST 2024"]
     ]
     const semisterPaperDownloads = [
-        [["I YEAR I SEMESTER QUESTION PAPERS","I YEAR I SEMESTER QUESTION PAPERS"], ["I YEAR II SEM REGULAR ALL BRANCH QUESTION PAPERS"]], 
+        [["Linear Algebra & Calculus","Chemistry","Engineering Physics","Communicative English","Basic Electrical & Electronics Engineering","Basic Civil & Mechanical Engineering","Engineering Graphics" ,"Introduction to Programming"  ], ["Data Structures","Differential Equations & Vector Calculus","Network Analysis","Chemistry","Engineering Physics","Communicative English","Basic Electrical & Electronics Engineering","Basic Civil & Mechanical Engineering","Engineering Graphics" ,"Introduction to Programming"]], 
         [[]], 
         [[]]
     ]
+
+    
 
     return (
         <div className="" style={{ overflowX: "hidden" }}>
@@ -27,7 +50,7 @@ const DownloadPage = () => {
             </div>
             {/* PREVIOUS YEAR QUESTION PAPERS  */}
             <div className="my-5">
-                <h1 className="text-center fw-bold" >PREVIOUS YEAR QUESTION PAPERS</h1>
+                <h1 className="text-center fw-bold" >QUESTION BANKS FOR B.TECH STUDENTS</h1>
 
                 {
                     semisters.map((value, i) => {
