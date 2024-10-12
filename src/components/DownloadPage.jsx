@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react"
 import Navbar from "../navbar"
-// import IYEARISEMESTERQUESTIONPAPERS from "../../public/pdf/1-1 R23 (1).pdf"
 // import './cssPages/home.css'
 import LinearAlgebraCalculus from "../../public/pdf/question-banks/R23/1-1-semester/R23-Linear Algebra & Calculus-p.pdf"
 import Chemistry from "../../public/pdf/question-banks/R23/1-1-semester/R23-Chemistryp.pdf"
@@ -29,8 +28,6 @@ const DownloadPage = () => {
     ]
     const semisterPaper = [
         ["I Year - B.Tech I Semester", "I Year - B.Tech II Semester"],
-        // ["I M.TECH I SEMESTER (R20) SUPPLEMENTARY EXAMINATIONS AUGUST 2024"],
-        // ["I M.TECH I SEMESTER (R20) SUPPLEMENTARY EXAMINATIONS AUGUST 2024", "I M.TECH I SEMESTER (R20) SUPPLEMENTARY EXAMINATIONS AUGUST 2024", "I M.TECH I SEMESTER (R20) SUPPLEMENTARY EXAMINATIONS AUGUST 2024"]
     ]
     const semisterPaperDownloads = [
         [["Linear Algebra & Calculus","Chemistry","Engineering Physics","Communicative English","Basic Electrical & Electronics Engineering","Basic Civil & Mechanical Engineering","Engineering Graphics" ,"Introduction to Programming"  ], ["Data Structures","Differential Equations & Vector Calculus","Network Analysis","Chemistry","Engineering Physics","Communicative English","Basic Electrical & Electronics Engineering","Basic Civil & Mechanical Engineering","Engineering Graphics" ,"Introduction to Programming"]], 
@@ -50,7 +47,7 @@ const DownloadPage = () => {
             </div>
             {/* PREVIOUS YEAR QUESTION PAPERS  */}
             <div className="my-5">
-                <h1 className="text-center fw-bold" >QUESTION BANKS FOR B.TECH STUDENTS </h1>
+                <h1 className="text-center fw-bold" >QUESTION BANKS FOR B.TECH STUDENTS  </h1>
 
                 {
                     semisters.map((value, i) => {
