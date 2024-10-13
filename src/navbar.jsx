@@ -293,9 +293,9 @@ function Navbar() {
                             student &&
                         <div style={{ zIndex: 999, background: "#6755A3" }} className="fs-6 gap-3 d-flex flex-column p-2">
 
-                            <li onClick={()=>navigate('/download')} > <a className="dropdown-item" href="/">Preious Year Question Papers </a></li>
-                            <li onClick={()=>navigate('/download')} ><a className="dropdown-item" href="/">Question Banks </a></li>
-                            <li onClick={()=>navigate('/download')} > <a className="dropdown-item" href="/">Study Materials </a></li>
+                            <li onClick={()=>navigate('/download')} > <a className="dropdown-item" href="/download">Preious Year Question Papers </a></li>
+                            <li onClick={()=>navigate('/download')} ><a className="dropdown-item" href="/download">Question Banks </a></li>
+                            <li onClick={()=>navigate('/download')} > <a className="dropdown-item" href="/download">Study Materials </a></li>
 
                         </div>
 
