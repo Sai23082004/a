@@ -371,7 +371,7 @@ export const Home = () => {
                                     {/* <img className="img-fluid" style={{ borderRadius: '20px', height: "17rem", width: "40rem", position: 'relative', top: '-70px' }} src={saikiran2} alt="" /> */}
                                     <div className="pt-4" style={{ position: 'relative', }}>
                                         <h5 className="text-center fw-bold">G . Sai Kiran </h5>
-                                        <p className="fw-semibold text-center">Frontend Developer </p>
+                                        <p className="fw-semibold text-center">Frontend Developer(Team leader) </p>
                                     </div>
                                 </div>
                             </div>
