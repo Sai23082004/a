@@ -288,7 +288,7 @@ function Navbar() {
                             <i onClick={() => setstudent(!student)} style={{ fontSize: "" }} className="fa-solid border rounded-circle border-dark p-2 text-dark fa-chevron-down ms-3"></i>
 
                         </div>
-                        {
+                        {/* {
 
                             student &&
                         <div style={{ zIndex: 999, background: "#6755A3" }} className="fs-6 gap-3 d-flex flex-column p-2">
@@ -299,7 +299,7 @@ function Navbar() {
 
                         </div>
 
-                        }
+                        } */}
                     </div>
                 </li>
 
