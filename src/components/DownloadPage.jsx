@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import Navbar from "../navbar"
 // import './cssPages/home.css'
 
-
+{/*question banks section */}
 const DownloadPage = () => {
     const semisters = [
         "Under Graduate(B.Tech) Question Bank:(AUTONOMOUS) R23 Regulations"
@@ -21,8 +21,44 @@ const DownloadPage = () => {
         [[]],
         [[]]
     ]
+
+{/* preious qustion paper section */}
+    const qp = [
+        "Updated Soon"
+    
+    ]
+    const qpp = [
+        [],
+    ]
+    const qpd = [
+        [[]], 
+        [[]]
+    ]
+    const qpdf = [
+        [[]],
+        [[]]
+    ]
     
 
+    {/* material section */}
+    const qb = [
+        "Updated Soon"
+    
+    ]
+    const qbp = [
+        [],
+    ]
+    const qbd = [
+        [[]], 
+        [[]]
+    ]
+    const qbdf = [
+        [[]],
+        [[]]
+    ]
+
+
+    
     return (
         <div className="" style={{ overflowX: "hidden" }}>
 
@@ -31,7 +67,7 @@ const DownloadPage = () => {
                 {/* imge */}
 
             </div>
-            {/* PREVIOUS YEAR QUESTION PAPERS  */}
+            {/* question banks   */}
             <div className="my-5">
                 <h1 className="text-center fw-bold" >QUESTION BANKS FOR B.TECH STUDENTS  </h1>
 
@@ -39,6 +75,38 @@ const DownloadPage = () => {
                     semisters.map((value, i) => {
                         return <>
                             <Papers ind={i} data={semisterPaper} pdfFiles={semisterPaperDownloadsPdfs} data2={semisterPaperDownloads} value={value} />
+                        </>
+                    })
+                }
+
+            </div>
+
+
+             {/* preious year question papers */}
+             <div className="my-5">
+                <h1 className="text-center fw-bold" >PREVIOUS YEAR QUESTION PAPERS  </h1>
+
+                {
+                    qp.map((value, i) => {
+                        return <>
+                            <Papers ind={i} data={qpp} pdfFiles={qpdf} data2={qpd} value={value} />
+                        </>
+                    })
+                }
+
+            </div>
+
+            
+
+
+             {/* materials   */}
+             <div className="my-5">
+                <h1 className="text-center fw-bold" >MATERIALS FOR B.TECH STUDENTS  </h1>
+
+                {
+                    qb.map((value, i) => {
+                        return <>
+                            <Papers ind={i} data={qbp} pdfFiles={qbdf} data2={qbd} value={value} />
                         </>
                     })
                 }
