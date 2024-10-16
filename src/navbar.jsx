@@ -38,10 +38,13 @@ function Navbar() {
                                 <i style={{ fontSize: "12px" }} className="fa-solid fa-chevron-down ms-3"></i>
                             </div>
                             <div style={{ zIndex: 999 }} className="dropdown-menu fs-6">
-                                <a className="dropdown-item" href="/download">1st Year</a>
-                                <a className="dropdown-item" href="/downloadtwo">2nd Year</a>
-                                <a className="dropdown-item" href="">3rd Year</a>
-                                <a className="dropdown-item" href="">4th Year</a>
+                                <li onClick={()=>{navigate("/Download")}}> <a className="dropdown-item" href="/download">1st Year</a></li>
+                                <li onClick={()=>{navigate("/Download")}}>  <a className="dropdown-item" href="/downloadtwo">2nd Year</a></li>
+                                <li onClick={()=>{navigate("/Download")}}>  <a className="dropdown-item" href="">3rd Year</a></li>
+                                <li onClick={()=>{navigate("/Download")}}>  <a className="dropdown-item" href="">4th Year</a></li>
+
+                                
+                                
                             </div>
                         </div>
                     </li>
