@@ -1,16 +1,7 @@
 import { useEffect, useRef, useState } from "preact/hooks"
 import Navbar from "./navbar"
 import './cssPages/home.css'
-import vision from '../public/images/vision.png'
-import saikiran2 from '../public/images/saikiran2.jpg'
 import hod from '../public/images/hod.jpg'
-import sai from '../public/images/sai.jpg'
-import abba from '../public/images/abba.jpg'
-import bavi from '../public/images/bavi.jpg'
-import gs from '../public/images/gs.jpg'
-import tony from '../public/images/tony.jpg'
-import moma from '../public/images/moma.jpg'
-import bavi1 from '../public/images/bavi1.jpg'
 import sai1 from '../public/images/sai1.jpg'
 
 
