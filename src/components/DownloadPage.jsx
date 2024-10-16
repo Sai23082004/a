@@ -22,22 +22,6 @@ const DownloadPage = () => {
         [[]]
     ]
 
-{/* preious qustion paper section */}
-    const qp = [
-        "Updated Soon"
-    
-    ]
-    const qpp = [
-        [],
-    ]
-    const qpd = [
-        [[]], 
-        [[]]
-    ]
-    const qpdf = [
-        [[]],
-        [[]]
-    ]
     
 
     {/* material section */}
@@ -69,7 +53,7 @@ const DownloadPage = () => {
             </div>
             {/* question banks   */}
             <div className="my-5">
-                <h1 className="text-center fw-bold" >QUESTION BANKS FOR B.TECH STUDENTS  </h1>
+                <h1 className="text-center fw-bold" >1st Year 1st Semester   </h1>
 
                 {
                     semisters.map((value, i) => {
@@ -80,28 +64,10 @@ const DownloadPage = () => {
                 }
 
             </div>
-
-
-             {/* preious year question papers */}
-             <div className="my-5">
-                <h1 className="text-center fw-bold" >PREVIOUS YEAR QUESTION PAPERS  </h1>
-
-                {
-                    qp.map((value, i) => {
-                        return <>
-                            <Papers ind={i} data={qpp} pdfFiles={qpdf} data2={qpd} value={value} />
-                        </>
-                    })
-                }
-
-            </div>
-
             
-
-
              {/* materials   */}
              <div className="my-5">
-                <h1 className="text-center fw-bold" >MATERIALS FOR B.TECH STUDENTS  </h1>
+                <h1 className="text-center fw-bold" >1st Year 2st Semester  </h1>
 
                 {
                     qb.map((value, i) => {
@@ -115,65 +81,9 @@ const DownloadPage = () => {
 
             
 
-            {/* footer  */}
-            <div className="text-light p-lg-4" style={{ backgroundImage: `url("https://cbit.edu.in/wp-content/uploads/2023/05/footer.png")`, backgroundRepeat: 'repeat' }}>
-                <div className="container-lg">
-                    <div className="row p-5 text-dark">
-                        <div className="col-md-2 col-sm-6 col-12">
-                            <div className="d-flex align-items-center text-dark flex-column">
-                                <img className="img-fluid" style={{ width: "15rem" }} src="https://cbit.edu.in/wp-content/uploads/2023/05/cbit.png" alt="" />
-                                <p className="text-left">Chaitanya Bharathi Institute Of Technology - Proddatur in Y S R (Kadapa) District, Andhra Pradesh</p>
-                            </div>
-                        </div>
-                        <div className="col-md-3 col-sm-6 col-12">
-                            <h4 className="fw-bold py-4 ps-4 ">Important Links</h4>
-                            <ul className="text-primary">
-                                <li ><a className=" text-primary" href="https://cbit.edu.in/userfiles/link/AICTE_Mandatory%20Disclosures.pdf">AICTE Mandatory Disclosures</a></li>
-                                <li><a href="https://cbit.edu.in/iic/" className="text-primary">IIC</a></li>
-                                <li><a className="text-primary" href="https://cbit.edu.in/nss/">NSS</a></li>
-                                <li><a className="text-primary" href="https://cbit.edu.in/student-achievements/">Student Achievements</a></li>
-                                <li><a className="text-primary" href="https://cbit.edu.in/iqac/faculty-achievements/">Faculty Achievements</a></li>
-                                <li><a className="text-primary" href="https://cbit.edu.in/student-welfare/">Student Welfare</a></li>
-                                <li><a className="text-primary" href="https://cbit.edu.in/downloads/">Downloads</a></li>
-                                <li><a className="text-primary" href="https://cbit.edu.in/committee/">Committee</a></li>
-                            </ul>
-                        </div>
-                        <div className="col-md-2 col-sm-6 col-12">
-                            <h4 className="fw-bold py-4 ps-4">Academics</h4>
-                            <ul className="text-primary">
-                                <li><a className="text-primary" href="https://cbit.edu.in/admissions/">Admission Procedure</a></li>
-                                <li><a className="text-primary" href="https://cbit.edu.in/academic-calendar/">Academic Calendar</a></li>
-                                <li><a className="text-primary" href="https://cbit.edu.in/academic-council/">Academic Council</a></li>
-                                <li><a className="text-primary" href="https://cbit.edu.in/about/affiliations/">Affiliations</a></li>
-                                <li><a className="text-primary" href="https://cbit.edu.in/admissions/admission-form/">Admission Form</a></li>
-                                <li><a className="text-primary" href="https://cbit.edu.in/admissions/courses-offered/">Courses Offered</a></li>
-                                <li><a className="text-primary" href="https://cbit.edu.in/campus-life/">Campus Life</a></li>
-                                <li><a className="text-primary" href="https://cbit.edu.in/contact/">Contact</a></li>
-                                <li><a className="text-primary" href="https://cbit.edu.in/infrastructure/cafeteria/">Cafeteria</a></li>
-                            </ul>
-                        </div>
-                        <div className="col-md-4 ms-md-4 col-sm-6 col-12">
-                            <h4 className="fw-bold py-4">Get in touch</h4>
-                            <div>
-                                <p>Chaitanya Bharathi Institute Of Technology,</p>
-                                <p>Vidya Nagar, Proddatur, YSR Kadapa (Dist.), Andhra Pradesh 516360,</p>
-                                <p>Phone: <span className="text-primary">+91-7659807111</span></p>
-                                <p>Email: <span className="text-primary"> info@cbit.edu.in</span></p>
-                                <div className="d-flex gap-4">
-                                    <a className="text-primary" href="https://cbit.edu.in/departments/">Departments</a>
-                                    <a className="text-primary" href="https://cbit.edu.in/iqac/aqar/">AQAR</a>
-                                    <a className="text-primary" href="https://cbit.edu.in/placements/">Placements</a>
-                                    <a className="text-primary" href="https://cbit.edu.in/contact/">Contact</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div className="p-3" style={{ background: "#203764" }}>
+        
+            <div className="p-3 " style={{ background: "#203764" }}>
                 <div className="mx-auto text-center">
-                    <img className="img-fluid" style={{ width: "5rem" }} src="https://cbit.edu.in/wp-content/uploads/2023/05/cbit.png" alt="" />
                     <p style={{ color: "#8A8A8E" }} className="text-center">
                         Copyright © 2024 www.cbit.edu.in | Designed by
                         <span style={{ color: "#1E77D1" }}> Shadow coders <img style={{ width: "1rem" }} className="img-fluid" src="https://www.briaux.com/briaux16.png" alt="" /></span>
