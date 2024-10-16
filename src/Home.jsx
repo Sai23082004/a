@@ -12,7 +12,6 @@ import tony from '../public/images/tony.jpg'
 import moma from '../public/images/moma.jpg'
 import bavi1 from '../public/images/bavi1.jpg'
 import sai1 from '../public/images/sai1.jpg'
-import back from "../public/images/back.jpg"
 
 
 
@@ -66,7 +65,7 @@ export const Home = () => {
 
                     <div style={{ zIndex: -1 }}>
                         <img
-                            src={back}
+                            src={sai1}
                             style={{ objectFit: 'cover', width: '100%', height: '90vh', zIndex: '-1' }}
                             className=""
                         />
