@@ -5,11 +5,11 @@ import Navbar from "../navbar"
 {/*question banks section */}
 const DownloadPage = () => {
     const semisters = [
-        "Under Graduate(B.Tech) Question Bank:(AUTONOMOUS) R23 Regulations"
+        "Under Graduate(B.Tech) (AUTONOMOUS) R23 Regulations"
     
     ]
     const semisterPaper = [
-        ["I Year - B.Tech I Semester", "I Year - B.Tech II Semester"],
+        ["Linear Algebra & Calculus","Chemistry","Engineering Physics","Communicative English","Basic Electrical & Electronics Engineering","Basic Civil & Mechanical Engineering","Engineering Graphics" ,"Introduction to Programming"  ]
     ]
     const semisterPaperDownloads = [
         [["Linear Algebra & Calculus","Chemistry","Engineering Physics","Communicative English","Basic Electrical & Electronics Engineering","Basic Civil & Mechanical Engineering","Engineering Graphics" ,"Introduction to Programming"  ], ["Data Structures","Differential Equations & Vector Calculus","Network Analysis","Chemistry","Engineering Physics","Communicative English","Basic Electrical & Electronics Engineering","Basic Civil & Mechanical Engineering","Engineering Graphics" ,"Introduction to Programming"]], 
@@ -26,11 +26,11 @@ const DownloadPage = () => {
 
     {/* material section */}
     const qb = [
-        "Updated Soon"
+        "Under Graduate(B.Tech) (AUTONOMOUS) R23 Regulations"
     
     ]
     const qbp = [
-        [],
+        ["Data Structures","Differential Equations & Vector Calculus","Network Analysis","Chemistry","Engineering Physics","Communicative English","Basic Electrical & Electronics Engineering","Basic Civil & Mechanical Engineering","Engineering Graphics" ,"Introduction to Programming"],
     ]
     const qbd = [
         [[]], 
@@ -109,14 +109,14 @@ const Papers = ({ data, value, ind, data2,pdfFiles }) => {
             </div>
             <div>
                 {
-                    open ? <>
-                        {
+                    // open ? <>
+                    //     {
                             data[ind].map((value2, i2) => {
                                 return <>
                                     <SemisterPaperDownloads data={data2} pdfFiles={pdfFiles} ind={ind} ind2={i2} value={value2} />
                                 </>
                             })
-                        } </> : null
+                        // } </> : null
                 }
             </div>
         </div>

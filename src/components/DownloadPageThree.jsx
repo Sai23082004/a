@@ -1,14 +1,16 @@
 import { useEffect, useState } from "react"
 import Navbar from "../navbar"
 
-const DownloadPageTwo = () => 
+
+
+const DownloadPageThree = () => 
 {
     const semisters = [
-        "Computer Science and Engineering","CSE(Data Science)" ,"CSE(Artificial Intelligence)","CSE(Artificial Intelligence & Data Science)","CSE(Artificial Intelligence & Machine Learning)","Electronics & Communication Engineering","Electrical and Electronics Engineering","Mechanical Engineering"
-   
+        "Under Graduate(B.Tech) Question Bank:(AUTONOMOUS) R23 Regulations"
+    
     ]
     const semisterPaper = [
-        ["Discrete Mathematics & Graph Theory ","Universal Human Values 2","Advanced Data Structures & Algorithms Analysis","Object-Oriented Programming Through JAVA ","Environmental Science","Digital Logic and Computer Organization "],
+        ["I Year - B.Tech I Semester", "I Year - B.Tech II Semester"],
     ]
     const semisterPaperDownloads = [
         [["Linear Algebra & Calculus","Chemistry","Engineering Physics","Communicative English","Basic Electrical & Electronics Engineering","Basic Civil & Mechanical Engineering","Engineering Graphics" ,"Introduction to Programming"  ], ["Data Structures","Differential Equations & Vector Calculus","Network Analysis","Chemistry","Engineering Physics","Communicative English","Basic Electrical & Electronics Engineering","Basic Civil & Mechanical Engineering","Engineering Graphics" ,"Introduction to Programming"]], 
@@ -25,8 +27,7 @@ const DownloadPageTwo = () =>
 
     {/* material section */}
     const qb = [
-        "Computer Science and Engineering","CSE(Data Science)" ,"CSE(Artificial Intelligence)","CSE(Artificial Intelligence & Data Science)","CSE(Artificial Intelligence & Machine Learning)","Electronics & Communication Engineering","Electrical and Electronics Engineering","Mechanical Engineering"
-
+        "Updated Soon"
     
     ]
     const qbp = [
@@ -53,7 +54,7 @@ const DownloadPageTwo = () =>
             </div>
             {/* question banks   */}
             <div className="my-5">
-                <h1 className="text-center fw-bold" >2st Year 1st Semester   </h1>
+                <h1 className="text-center fw-bold" >3st Year 1st Semester   </h1>
 
                 {
                     semisters.map((value, i) => {
@@ -67,7 +68,7 @@ const DownloadPageTwo = () =>
             
              {/* materials   */}
              <div className="my-5">
-                <h1 className="text-center fw-bold" >2st Year 2st Semester  </h1>
+                <h1 className="text-center fw-bold" >3st Year 2st Semester  </h1>
 
                 {
                     qb.map((value, i) => {
@@ -144,5 +145,7 @@ const SemisterPaperDownloads = ({ data, value, ind, ind2,pdfFiles }) => {
 
     </>
 
+
+
 }
-export default DownloadPageTwo
+export default DownloadPageThree
