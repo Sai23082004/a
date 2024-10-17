@@ -65,6 +65,8 @@ export const Home = () => {
                     {/* Text content */}
                     <div className="position-absolute top-50 text-light text-center w-100" style={{ zIndex: 1 }}>
                         <h1 style={{ fontSize: '50px' }}>Welcome To Student Corner </h1>
+                        <h1>
+                        In the Student Corner, you can access important questions, important questions with answers, study materials, and previous year question papers.</h1>
                     </div>
                 </div>
 
