@@ -6,35 +6,70 @@ import Navbar from "../navbar"
 const DownloadPageThree = () => 
 {
     const semisters = [
-        "Important Questions , IMportant Question With Answers , Study Material Updated soon ..."
-    
+        "Computer Science and Engineering", 
+        "CSE(Data Science)",
+        "CSE(Artificial Intelligence)",
+        "CSE(Artificial Intelligence & Machine Learning)",
+        "Electronics & Communication Engineering",
+        "Electrical and Electronics Engineering",
+        "Mechanical Engineering"
+
     ]
     const semisterPaper = [
+        
         [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
     const semisterPaperDownloads = [
-        [[]], 
-        [[]], 
-        [[]]
+         [["IMportant Questions ", "IMportant Questions With Answers ", "Study Material All Units ", "Preious Year Questio Papers"],
+         ["IMportant Questions ","IMportant Questions With Answers ", "Study Material All Units ", "Preious Year Questio Papers"],
+        ["IMportant Questions ", "IMportant Questions With Answers ", "Study Material All Units ", "Preious Year Questio Papers"],
+        ["IMportant Questions ", "IMportant Questions With Answers ", "Study Material All Units ", "Preious Year Questio Papers"],
+        ["IMportant Questions ", "IMportant Questions With Answers ", "Study Material All Units ", "Preious Year Questio Papers"],
+        ["IMportant Questions ", "IMportant Questions With Answers ", "Study Material All Units ", "Preious Year Questio Papers"],
+        ["IMportant Questions ", "IMportant Questions With Answers ", "Study Material All Units ", "Preious Year Questio Papers"]],
+        [[]],
+        [[]],
+        [[]],
+        [[]],
+        [[]],
+        [[]],
     ]
     const semisterPaperDownloadsPdfs = [
+        [["https://drive.google.com/file/d/1IKapXOlKDi_Lolw2QeKyHDJzK9f91Y8n/view?usp=sharing", "https://drive.google.com/file/d/1Y_OOwBH7B9e-PwlRF1ayvxZ9uwcixZjf/view?usp=sharing", "https://drive.google.com/file/d/1aPyHdT8Q9sHjrlXqAl_9N5pxiOublsbc/view?usp=sharing", "https://drive.google.com/file/d/1hSajg9-YdyemFrLTYe-KinV9NpcKZDFO/view?usp=sharing", "https://drive.google.com/file/d/1VaiSWFKjK1IOA38CG9Jy44fxT9to_siH/view?usp=sharing", "https://drive.google.com/file/d/1bbVhr5yoMroQibHMOabuItvi9kOEeq2h/view?usp=sharing", "https://drive.google.com/file/d/1Xgcm6iDbWs_vhkWkppPnM4ZXIEuU9Bas/view?usp=sharing", "https://drive.google.com/file/d/1KB1G_cjyIJFPOLCmHmzkpX9wogeWEPVX/view?usp=sharing"],
+         ["https://drive.google.com/file/d/1kh4-VjiLR6r8cL-HOyWjs70R52stWBB-/view?usp=sharing", "https://drive.google.com/file/d/1sNpinwHuO2Tn4488LHJA5WtfOLHD2kWw/view?usp=sharing", "https://drive.google.com/file/d/10hzX3s5aq_yeSRXkORclB6djFUg3Mrtx/view?usp=sharing", "https://drive.google.com/file/d/1Y_OOwBH7B9e-PwlRF1ayvxZ9uwcixZjf/view?usp=sharing", "https://drive.google.com/file/d/1aPyHdT8Q9sHjrlXqAl_9N5pxiOublsbc/view?usp=sharing", "https://drive.google.com/file/d/1hSajg9-YdyemFrLTYe-KinV9NpcKZDFO/view?usp=sharing", "https://drive.google.com/file/d/1VaiSWFKjK1IOA38CG9Jy44fxT9to_siH/view?usp=sharing", "https://drive.google.com/file/d/1bbVhr5yoMroQibHMOabuItvi9kOEeq2h/view?usp=sharing", "https://drive.google.com/file/d/1Xgcm6iDbWs_vhkWkppPnM4ZXIEuU9Bas/view?usp=sharing", "https://drive.google.com/file/d/1KB1G_cjyIJFPOLCmHmzkpX9wogeWEPVX/view?usp=sharing"],
+        [],
+        [],
+        [],
+        [],
+        [],
+        ],
         [[]],
         [[]],
-        [[]]
+        [[]],
+        [[]],
+        [[]],
+        [[]],
     ]
 
-    
 
-    {/* material section */}
+
+    {/* material section */ }
     const qb = [
-        "Important Questions , IMportant Question With Answers , Study Material Updated soon ..."
-    
+        "Computer Science and Engineering", "CSE(Data Science)", "CSE(Artificial Intelligence)", "CSE(Artificial Intelligence & Data Science)", "CSE(Artificial Intelligence & Machine Learning)", "Electronics & Communication Engineering", "Electrical and Electronics Engineering", "Mechanical Engineering"
+
+
     ]
     const qbp = [
         [],
     ]
     const qbd = [
-        [[]], 
+        [[]],
         [[]]
     ]
     const qbdf = [
@@ -43,7 +78,7 @@ const DownloadPageThree = () =>
     ]
 
 
-    
+
     return (
         <div className="" style={{ overflowX: "hidden" }}>
 
@@ -54,21 +89,21 @@ const DownloadPageThree = () =>
             </div>
             {/* question banks   */}
             <div className="my-5">
-                <h1 className="text-center fw-bold" >3st Year 1st Semester   </h1>
+                <h1 className="text-center fw-bold" >3rd Year 1st Semester   </h1>
 
                 {
                     semisters.map((value, i) => {
-                        return <>
-                            <Papers ind={i} data={semisterPaper} pdfFiles={semisterPaperDownloadsPdfs} data2={semisterPaperDownloads} value={value} />
-                        </>
+                        return <div key={i}>
+                            <Papers ind={i} data={semisterPaper || []} pdfFiles={semisterPaperDownloadsPdfs} data2={semisterPaperDownloads} value={value} />
+                        </div>
                     })
                 }
 
             </div>
-            
-             {/* materials   */}
-             <div className="my-5">
-                <h1 className="text-center fw-bold" >3st Year 2st Semester  </h1>
+
+            {/* materials   */}
+            <div className="my-5">
+                <h1 className="text-center fw-bold" >3rd Year 2st Semester  </h1>
 
                 {
                     qb.map((value, i) => {
@@ -80,9 +115,9 @@ const DownloadPageThree = () =>
 
             </div>
 
-            
 
-        
+
+
             <div className="p-3 " style={{ background: "#203764" }}>
                 <div className="mx-auto text-center">
                     <p style={{ color: "#8A8A8E" }} className="text-center">
@@ -96,7 +131,7 @@ const DownloadPageThree = () =>
     )
 }
 
-const Papers = ({ data, value, ind, data2,pdfFiles }) => {
+const Papers = ({ data, value, ind, data2, pdfFiles }) => {
     const [open, setOpen] = useState(false)
 
     return <>
@@ -110,11 +145,11 @@ const Papers = ({ data, value, ind, data2,pdfFiles }) => {
             </div>
             <div>
                 {
-                    open ? <>
+                    Array.isArray(data[ind]) ? <>
                         {
                             data[ind].map((value2, i2) => {
                                 return <>
-                                    <SemisterPaperDownloads data={data2} pdfFiles={pdfFiles} ind={ind} ind2={i2} value={value2} />
+                                    <SemisterPaperDownloads data={data2 || [[]]} pdfFiles={pdfFiles} ind={ind} ind2={i2} value={value2} />
                                 </>
                             })
                         } </> : null
@@ -125,7 +160,7 @@ const Papers = ({ data, value, ind, data2,pdfFiles }) => {
     </>
 }
 
-const SemisterPaperDownloads = ({ data, value, ind, ind2,pdfFiles }) => {
+const SemisterPaperDownloads = ({ data, value, ind, ind2, pdfFiles }) => {
     const [open, setOpen] = useState(false)
     const p = ''
 
@@ -137,15 +172,20 @@ const SemisterPaperDownloads = ({ data, value, ind, ind2,pdfFiles }) => {
         </div>
         <div className="row d-flex justify-content-center align-items-center mx-4">
             {
-                open ? data[ind][ind2].map((value3, i3) => {
-                    return <a href={pdfFiles[ind][ind2][i3]} download style={{ background: '#E6E6E6', }} className="text-primary  col-lg-6 mx-lg-5 mx-3 mt-1 p-2 py-1 fs-6">{value3}</a>
-                }) : null
+                open ?
+                    Array.isArray(data[ind][ind2]) ?
+                        <>
+                            {
+                                data[ind][ind2].map((value3, i3) => {
+                                    return <a href={pdfFiles[ind][ind2][i3]} download style={{ background: '#E6E6E6', }} className="text-primary  col-lg-6 mx-lg-5 mx-3 mt-1 p-2 py-1 fs-6">{value3}</a>
+                                })
+                            }
+                        </>
+                        : null : null
             }
         </div>
 
     </>
-
-
 
 }
 export default DownloadPageThree
