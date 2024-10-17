@@ -12,7 +12,7 @@ const DownloadPage = () => {
         ["Linear Algebra & Calculus","Chemistry","Engineering Physics","Communicative English","Basic Electrical & Electronics Engineering","Basic Civil & Mechanical Engineering","Engineering Graphics" ,"Introduction to Programming"  ]
     ]
     const semisterPaperDownloads = [
-        [["Linear Algebra & Calculus","Chemistry","Engineering Physics","Communicative English","Basic Electrical & Electronics Engineering","Basic Civil & Mechanical Engineering","Engineering Graphics" ,"Introduction to Programming"  ], ["Data Structures","Differential Equations & Vector Calculus","Network Analysis","Chemistry","Engineering Physics","Communicative English","Basic Electrical & Electronics Engineering","Basic Civil & Mechanical Engineering","Engineering Graphics" ,"Introduction to Programming"]], 
+        [["IMportant Questions ","IMportant Questions With Answers ","Study Material All Units ","Preious Year Questio Papers" ], ["IMportant Questions ","IMportant Questions With Answers ","Study Material All Units ","Preious Year Questio Papers"],["IMportant Questions ","IMportant Questions With Answers ","Study Material All Units ","Preious Year Questio Papers"],["IMportant Questions ","IMportant Questions With Answers ","Study Material All Units ","Preious Year Questio Papers"],["IMportant Questions ","IMportant Questions With Answers ","Study Material All Units ","Preious Year Questio Papers"],["IMportant Questions ","IMportant Questions With Answers ","Study Material All Units ","Preious Year Questio Papers"]], 
         [[]], 
         [[]]
     ]

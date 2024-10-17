@@ -6,19 +6,19 @@ import Navbar from "../navbar"
 const DownloadPageThree = () => 
 {
     const semisters = [
-        "Under Graduate(B.Tech) Question Bank:(AUTONOMOUS) R23 Regulations"
+        "Important Questions , IMportant Question With Answers , Study Material Updated soon ..."
     
     ]
     const semisterPaper = [
-        ["I Year - B.Tech I Semester", "I Year - B.Tech II Semester"],
+        [],
     ]
     const semisterPaperDownloads = [
-        [["Linear Algebra & Calculus","Chemistry","Engineering Physics","Communicative English","Basic Electrical & Electronics Engineering","Basic Civil & Mechanical Engineering","Engineering Graphics" ,"Introduction to Programming"  ], ["Data Structures","Differential Equations & Vector Calculus","Network Analysis","Chemistry","Engineering Physics","Communicative English","Basic Electrical & Electronics Engineering","Basic Civil & Mechanical Engineering","Engineering Graphics" ,"Introduction to Programming"]], 
+        [[]], 
         [[]], 
         [[]]
     ]
     const semisterPaperDownloadsPdfs = [
-        [["https://drive.google.com/file/d/1IKapXOlKDi_Lolw2QeKyHDJzK9f91Y8n/view?usp=sharing","https://drive.google.com/file/d/1Y_OOwBH7B9e-PwlRF1ayvxZ9uwcixZjf/view?usp=sharing","https://drive.google.com/file/d/1aPyHdT8Q9sHjrlXqAl_9N5pxiOublsbc/view?usp=sharing","https://drive.google.com/file/d/1hSajg9-YdyemFrLTYe-KinV9NpcKZDFO/view?usp=sharing","https://drive.google.com/file/d/1VaiSWFKjK1IOA38CG9Jy44fxT9to_siH/view?usp=sharing","https://drive.google.com/file/d/1bbVhr5yoMroQibHMOabuItvi9kOEeq2h/view?usp=sharing","https://drive.google.com/file/d/1Xgcm6iDbWs_vhkWkppPnM4ZXIEuU9Bas/view?usp=sharing","https://drive.google.com/file/d/1KB1G_cjyIJFPOLCmHmzkpX9wogeWEPVX/view?usp=sharing"], ["https://drive.google.com/file/d/1kh4-VjiLR6r8cL-HOyWjs70R52stWBB-/view?usp=sharing","https://drive.google.com/file/d/1sNpinwHuO2Tn4488LHJA5WtfOLHD2kWw/view?usp=sharing","https://drive.google.com/file/d/10hzX3s5aq_yeSRXkORclB6djFUg3Mrtx/view?usp=sharing","https://drive.google.com/file/d/1Y_OOwBH7B9e-PwlRF1ayvxZ9uwcixZjf/view?usp=sharing","https://drive.google.com/file/d/1aPyHdT8Q9sHjrlXqAl_9N5pxiOublsbc/view?usp=sharing","https://drive.google.com/file/d/1hSajg9-YdyemFrLTYe-KinV9NpcKZDFO/view?usp=sharing","https://drive.google.com/file/d/1VaiSWFKjK1IOA38CG9Jy44fxT9to_siH/view?usp=sharing","https://drive.google.com/file/d/1bbVhr5yoMroQibHMOabuItvi9kOEeq2h/view?usp=sharing","https://drive.google.com/file/d/1Xgcm6iDbWs_vhkWkppPnM4ZXIEuU9Bas/view?usp=sharing","https://drive.google.com/file/d/1KB1G_cjyIJFPOLCmHmzkpX9wogeWEPVX/view?usp=sharing"]],
+        [[]],
         [[]],
         [[]]
     ]
@@ -27,7 +27,7 @@ const DownloadPageThree = () =>
 
     {/* material section */}
     const qb = [
-        "Updated Soon"
+        "Important Questions , IMportant Question With Answers , Study Material Updated soon ..."
     
     ]
     const qbp = [
