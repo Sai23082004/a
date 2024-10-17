@@ -103,7 +103,7 @@ const DownloadPageThree = () =>
 
             {/* materials   */}
             <div className="my-5">
-                <h1 className="text-center fw-bold" >3rd Year 2st Semester  </h1>
+                <h1 className="text-center fw-bold" >3rd Year 2nd Semester  </h1>
 
                 {
                     qb.map((value, i) => {

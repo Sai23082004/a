@@ -99,7 +99,7 @@ const DownloadPageTwo = () => {
 
             {/* materials   */}
             <div className="my-5">
-                <h1 className="text-center fw-bold" >2st Year 2st Semester  </h1>
+                <h1 className="text-center fw-bold" >2st Year 2nd Semester  </h1>
 
                 {
                     qb.map((value, i) => {
